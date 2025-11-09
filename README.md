@@ -3,6 +3,18 @@
 Se presenta un panel interactivo desarrollado con Streamlit que permite visualizar la evolución de métricas clave universitarias entre 2015 y 2024.
 El dashboard ofrece una visión integral de las solicitudes, admisiones, matrículas, tasas de retención y satisfacción estudiantil.
 
+## Proposito
+Aplicación Streamlit para visualizar y analizar datos universitarios: tendencias temporales, KPIs (aplicaciones, admitidos, matriculados, satisfacción), distribución por carrera y estadísticas descriptivas. Permite filtrar por año y estación del año.
+
+## Uso
+- Sidebar: Para seleccionar años y estaciones.  
+- Vista principal:
+  - Encabezado que indica los años que se están visualizando.
+  - KPIs principales (aplicaciones, admitidos, matriculados, satisfacción).
+  - Gráficos de tendencias (líneas), tasas (líneas), distribución por carrera (pastel) y barras apiladas por año.
+  - Tabla de datos filtrados y opción para ver estadísticas descriptivas.
+
+
 ## Estructura del dataset  
 El archivo `university_student_data.csv` contiene la siguiente estructura:
 
@@ -20,7 +32,6 @@ El archivo `university_student_data.csv` contiene la siguiente estructura:
 | **Arts Enrolled** | Estudiantes matriculados en Artes |
 | **Science Enrolled** | Estudiantes matriculados en Ciencias |
 
----
 
 ## Autores 
 - Cantú Olivarez Arturo - 10919
